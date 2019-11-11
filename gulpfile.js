@@ -88,7 +88,7 @@ gulp.task('browser-sync', function () {
 
 // img
 
-var images_input = 'app/i/**/*.{jpg,png,svg,gif,ico}';
+var images_input = 'app/i/**/*.{jpg,png,svg,gif,ico,webp}';
 var images_output = 'dist/i';
 
 gulp.task('image-min', function () {
